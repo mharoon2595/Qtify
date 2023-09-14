@@ -1,0 +1,14 @@
+.topAlbumsList{
+
+ width:100vw;
+ padding:3rem;
+
+}
+
+.cardDeck{
+
+    display:flex;
+    gap:40px;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
