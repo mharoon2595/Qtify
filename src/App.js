@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
-import TopAlbums from './components/TopAlbums/TopAlbums';
+import Albums from './components/Albums/Albums';
+import Songs from './components/Songs/Songs';
 import axios from 'axios'
 
 export const config={'endpoint':'https://qtify-backend-labs.crio.do/albums/top'}
@@ -12,7 +13,8 @@ function App() {
     <div >
      <Navbar/>
      <Hero/>
-     <TopAlbums/>
+     <Albums/>
+     <Songs />
     </div>
   );
 }

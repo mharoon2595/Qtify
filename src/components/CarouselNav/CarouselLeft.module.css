@@ -1,0 +1,8 @@
+.left{
+    position:absolute;
+    left:0;
+    top:50%;
+    cursor: pointer;
+    z-index: 10;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,8 @@
+.songsWrapper{
+
+    width:100vw;
+    height:381px;
+    padding: 3rem;
+    border-top: 1px solid var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
+}

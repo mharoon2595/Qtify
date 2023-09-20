@@ -1,0 +1,36 @@
+.topAlbumsList{
+
+ width:100vw;
+ padding:3rem;
+ position: relative;
+
+}
+
+.titleWrapper{
+  
+    position: relative;
+    padding: 2rem;
+
+}
+
+.flexWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 47px;
+}
+
+.TopAlbums{
+
+    position: absolute;
+    left:0;
+    
+}
+
+.toggle{
+    position: absolute;
+    right:0;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+  
