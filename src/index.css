@@ -28,3 +28,15 @@ body{
   color: var(--color-white);
   overflow-x:hidden;
 }
+
+.css-1aquho2-MuiTabs-indicator{
+  background-color: var(--color-primary)!important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: var(--color-white)!important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+  text-transform: none!important;
+}

@@ -1,6 +1,19 @@
 .hero{
+
+    height: 270px;
     display: flex;
-    gap: 10px;
     justify-content: center;
     align-items: center;
+}
+
+
+.innerHero{
+    display: flex;
+    gap:10px;
+}
+
+.innerHeroText{
+    display: flex;
+    align-items: center;
+
 }

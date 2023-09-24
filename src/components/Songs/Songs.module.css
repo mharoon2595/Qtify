@@ -1,8 +1,12 @@
 .songsWrapper{
 
     width:100vw;
-    height:381px;
+    height:auto;
     padding: 3rem;
     border-top: 1px solid var(--color-primary);
     border-bottom: 1px solid var(--color-primary);
+}
+
+.tabWrapper{
+    padding:10px;
 }

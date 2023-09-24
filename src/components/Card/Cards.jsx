@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Cards.module.css'
 import axios from 'axios'
 
-const Cards = ({cardData}) => {
+const Cards = ({cardData, fromTabs }) => {
     console.log("from Cards-->", cardData)
 
   
@@ -22,7 +22,10 @@ const Cards = ({cardData}) => {
     <div className={styles.fullCard}>
         <div className={styles.cardStructure}>
         <div style={cardStyle}>
-        <button className={styles.cardBtn}>{cardData.follows} Follows</button>
+        {fromTabs
+        ?<button className={styles.cardBtn}>{cardData.likes} likes</button>
+        :<button className={styles.cardBtn}>{cardData.follows} Follows</button>
+        }
         </div>
         </div>
         <div>

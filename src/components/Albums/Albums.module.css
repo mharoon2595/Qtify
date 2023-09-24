@@ -1,7 +1,7 @@
 .topAlbumsList{
 
  width:100vw;
- padding:3rem;
+ padding: 0 3rem 3rem 3rem;
  position: relative;
 
 }
@@ -9,7 +9,7 @@
 .titleWrapper{
   
     position: relative;
-    padding: 2rem;
+    padding: 0 2rem 2rem 2rem;
 
 }
 
