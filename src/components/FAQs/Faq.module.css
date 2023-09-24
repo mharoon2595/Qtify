@@ -1,6 +1,12 @@
 .wrapper{
-    height:200px;
+    height:350px;
     display:flex;
     justify-content: center;
-    padding:3rem;
+    padding:8rem;
+    align-items: center;
+}
+
+.faq{
+    display: flex;
+    justify-content: center;
 }
