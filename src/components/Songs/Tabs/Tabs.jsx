@@ -65,6 +65,8 @@ const Controls = ({data}) =>{
   
   }
 
+  
+
 
 export default function BasicTabs() {
   const [value, setValue] = useState(0);
@@ -86,12 +88,17 @@ export default function BasicTabs() {
           value={value}
           onChange={handleChange}
           aria-label="basic tabs example"
+          TabIndicatorProps={{
+            style: {
+              backgroundColor: "#34c94b"
+            }
+          }} 
         >
           {genres.map((item) => (
             <Tab
               label={item.label}
               key={item.key}
-              style={{ color: "white", fontSize: "16px", fontWeight: "600" }}
+              style={{ color: "white", fontSize: "16px", fontWeight: "600", textTransform: 'none'}}
               onClick={(e)=>{
                 if(item.label!='All'){
                 let songsList=songs.filter((item)=>{

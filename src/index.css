@@ -28,29 +28,5 @@ body{
   color: var(--color-white);
   overflow-x:hidden;
 }
-
-.css-1aquho2-MuiTabs-indicator{
-  background-color: var(--color-primary)!important;
-}
-
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
-  color: var(--color-white)!important;
-}
-
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
-  text-transform: none!important;
-}
-
-.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
-  background-color: var(--color-black)!important;
-}
-
-.css-ahj2mt-MuiTypography-root {
-  font-family: 'Poppins', sans-serif!important;
-  color: var(--color-white);
-}
-
-.css-i4bv87-MuiSvgIcon-root {
-  color: var(--color-primary)!important;
-}
+  
 

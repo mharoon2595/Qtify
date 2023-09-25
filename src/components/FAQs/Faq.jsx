@@ -16,34 +16,38 @@ const Faq = () => {
     <div>
     <Accordion style={{border: '2px solid white',
           borderRadius: '10px',
-          marginBottom:'1rem'}}>
+          marginBottom:'1rem',
+          backgroundColor: 'black'}}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{color:'#34c94b'}}/>}
           aria-controls="panel1a-content"
           id="panel1a-header"
           style={{borderRadius: '10px'}}
         >
-          <Typography>Is Qtify free to use?</Typography>
+          <Typography style={{color:'white', fontFamily:'Poppins'}}>Is Qtify free to use?</Typography>
         </AccordionSummary>
-        <AccordionDetails>
-          <Typography style={{color:'black'}}>
+        <AccordionDetails style={{backgroundColor:'white'}}>
+          <Typography style={{color:'black', fontFamily:'Poppins'}}>
             100% free with 0 ads.
             </Typography>
         </AccordionDetails>
       </Accordion>
+
+
       <Accordion style={{border: '2px solid white',
           borderRadius: '10px',
-          marginBottom:'1rem'}}>
+          marginBottom:'1rem',
+          backgroundColor: 'black'}}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{color:'#34c94b'}}/>}
           aria-controls="panel2a-content"
           id="panel2a-header"
           style={{borderRadius: '10px'}}
         >
-          <Typography>Can I download and listen to songs offline?</Typography>
+          <Typography style={{color:'white', fontFamily:'Poppins'}}>Can I download and listen to songs offline?</Typography>
         </AccordionSummary>
-        <AccordionDetails>
-          <Typography style={{color:'black'}}>
+        <AccordionDetails style={{backgroundColor:'white'}}>
+          <Typography style={{color:'black', fontFamily:'Poppins'}}>
             Sorry, unfortunately we do not provide the service to download any songs.
           </Typography>
         </AccordionDetails>
